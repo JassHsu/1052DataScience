@@ -30,7 +30,7 @@ postive_or_not<-function(pre,ref){
 # read parameters
 args = commandArgs(trailingOnly=TRUE)
 if (length(args) == 0) {
-  stop("USAGE: Rscript hw2_105753036.R --target male|female --files file1 file2 ... filen --out out.csv", call.=FALSE)
+  stop("USAGE: Rscript hw3_105753036.R --target male|female --files file1 file2 ... filen --out out.csv", call.=FALSE)
 }
 
 # parse parameters
