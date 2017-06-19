@@ -7,6 +7,8 @@ stock<-get(getSymbols("IBM"))
 # set the date
 date<-"2012-03-30/2013-12-31"
 
+
+#apply the starpoints function to pick the first trading day
 startpoints<- function(x,on="days",k=1){
   head(endpoints(x,on,k)+1,-1)
 }
